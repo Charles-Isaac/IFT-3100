@@ -54,19 +54,19 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="openframeworks\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+    <Import Project="openframeworks\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="openframeworks\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+    <Import Project="openframeworks\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -100,7 +100,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxDatGui\src;..\..\..\addons\ofxDatGui\src\components;..\..\..\addons\ofxDatGui\src\core;..\..\..\addons\ofxDatGui\src\libs;..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\addons\ofxDatGui\src\themes;..\..\..\addons\ofxGui\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);openframeworks\addons\ofxDatGui\src;openframeworks\addons\ofxDatGui\src\components;openframeworks\addons\ofxDatGui\src\core;openframeworks\addons\ofxDatGui\src\libs;openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont;openframeworks\addons\ofxDatGui\src\themes;openframeworks\addons\ofxGui\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -120,7 +120,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxDatGui\src;..\..\..\addons\ofxDatGui\src\components;..\..\..\addons\ofxDatGui\src\core;..\..\..\addons\ofxDatGui\src\libs;..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\addons\ofxDatGui\src\themes;..\..\..\addons\ofxGui\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);openframeworks\addons\ofxDatGui\src;openframeworks\addons\ofxDatGui\src\components;openframeworks\addons\ofxDatGui\src\core;openframeworks\addons\ofxDatGui\src\libs;openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont;openframeworks\addons\ofxDatGui\src\themes;openframeworks\addons\ofxGui\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -140,7 +140,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxDatGui\src;..\..\..\addons\ofxDatGui\src\components;..\..\..\addons\ofxDatGui\src\core;..\..\..\addons\ofxDatGui\src\libs;..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\addons\ofxDatGui\src\themes;..\..\..\addons\ofxGui\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);openframeworks\addons\ofxDatGui\src;openframeworks\addons\ofxDatGui\src\components;openframeworks\addons\ofxDatGui\src\core;openframeworks\addons\ofxDatGui\src\libs;openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont;openframeworks\addons\ofxDatGui\src\themes;openframeworks\addons\ofxGui\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -163,7 +163,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxDatGui\src;..\..\..\addons\ofxDatGui\src\components;..\..\..\addons\ofxDatGui\src\core;..\..\..\addons\ofxDatGui\src\libs;..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont;..\..\..\addons\ofxDatGui\src\themes;..\..\..\addons\ofxGui\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);openframeworks\addons\ofxDatGui\src;openframeworks\addons\ofxDatGui\src\components;openframeworks\addons\ofxDatGui\src\core;openframeworks\addons\ofxDatGui\src\libs;openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont;openframeworks\addons\ofxDatGui\src\themes;openframeworks\addons\ofxGui\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -182,54 +182,54 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\application.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxDatGui\src\core\ofxDatGuiComponent.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont\ofxSmartFont.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxDatGui\src\ofxDatGui.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp" />
-    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxDatGui\src\core\ofxDatGuiComponent.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont\ofxSmartFont.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxDatGui\src\ofxDatGui.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxBaseGui.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxButton.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxColorPicker.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxGuiGroup.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxInputField.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxLabel.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxPanel.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxSlider.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxSliderGroup.cpp" />
+    <ClCompile Include="openframeworks\addons\ofxGui\src\ofxToggle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\application.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGui2dPad.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiButton.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiColorPicker.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiControls.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiFRM.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiGroups.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiLabel.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiMatrix.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiScrollView.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiSlider.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiTextInput.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiTextInputField.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\components\ofxDatGuiTimeGraph.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\core\ofxDatGuiComponent.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\core\ofxDatGuiConstants.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\core\ofxDatGuiEvents.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\core\ofxDatGuiIntObject.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\libs\ofxSmartFont\ofxSmartFont.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\ofxDatGui.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\themes\ofxDatGuiTheme.h" />
-    <ClInclude Include="..\..\..\addons\ofxDatGui\src\themes\ofxDatGuiThemes.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h" />
-    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGui2dPad.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiButton.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiColorPicker.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiControls.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiFRM.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiGroups.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiLabel.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiMatrix.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiScrollView.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiSlider.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiTextInput.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiTextInputField.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\components\ofxDatGuiTimeGraph.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\core\ofxDatGuiComponent.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\core\ofxDatGuiConstants.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\core\ofxDatGuiEvents.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\core\ofxDatGuiIntObject.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\libs\ofxSmartFont\ofxSmartFont.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\ofxDatGui.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\themes\ofxDatGuiTheme.h" />
+    <ClInclude Include="openframeworks\addons\ofxDatGui\src\themes\ofxDatGuiThemes.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxBaseGui.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxButton.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxColorPicker.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxGui.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxGuiGroup.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxInputField.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxLabel.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxPanel.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxSlider.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxSliderGroup.h" />
+    <ClInclude Include="openframeworks\addons\ofxGui\src\ofxToggle.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
